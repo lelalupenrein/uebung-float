@@ -27,53 +27,49 @@ section:last-of-type{
 	border-bottom: none;
 }
 
-.electric-purple{
-	background: #C200FB;
 
-
-
-
-}
-
-.raspberry{
-	background: #EC0868;
-
-}
-
-.ferrari-red{
-	background: #FC2F00;
+.green{
+	background: green;
 	float: left;
 
 }
 
-.green{
-	background: green;
-
-}
-
-.black{
-	background: black;
-
+.red{
+	background: red;
+	float: left;
 }
 
 .col {
-	height: 200px;
-	width: 200px;
+	height: 100px;
+	width: 100px;
+
 
 
 }
-
 .row{
 	background: yellow;
 }
 
+
+.green{
+	width: 100px;
+	hight: 100px;
+}
+
+
+
+
 .clearfix::after{
-	content: "";
+	content: "huhu";
 	display: block;
 	width: 100%;
 	clear: both;
 }
 
-.cl{
-	clear: both;
+.clear{
+
+}
+
+.container{
+	background: lightblue;
 }
